@@ -115,12 +115,11 @@ input{
     margin-bottom: 1em;
     margin-right: 1em;
     border: 1px solid var(--gray-background-color);
-    width: 13.5em;
+    width: 13em;
 }
 
 th,td {
     padding-left: .3em;
-//    border: 1px solid var(--gray-background-color);
-    border-spacing: 30px;
+    padding-right: 1em;
     width: 11em;
 }
