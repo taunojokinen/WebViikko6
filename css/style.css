@@ -1,0 +1,126 @@
+:root {
+    --dark-background-color: #274472;
+    --light-background-color: #f5f5f5;
+    --gray-background-color: #abc4f3;
+    --dark-foreground-color: #274472;
+    --light-foreground-color: #C3E0E5;
+    --gray-foreground-color: #ccc;
+    --accent-color: #6d0509;
+    --general-padding: 2em;
+    --general-margin: 1em;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: var(--dark-foreground-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    
+}
+
+h1 {
+    color: var(--dark-foreground-color);
+}
+
+title {
+    display:none;
+}
+
+header {
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 2%;  
+    background-color: var(--dark-background-color);
+     
+}
+
+li {
+    display:inline-block;
+    color: aliceblue;
+    text-align: center; 
+    padding-left: 8%;
+    padding-right: 7%;
+}
+
+li a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5 em 1em;
+
+}
+
+li a:hover {
+    font-weight: bold;
+}
+#otsikko {
+    padding: 1em;
+} 
+
+#container {
+
+    padding: 1em;
+    width: 90%;
+    object-fit: cover;
+    object-position: center;
+    margin: 20px;
+    text-align: left;
+    display: inline-block;
+    width: 100vw;
+    display: inherit;
+    border-right: 1px solid var(--dark-background-color);
+   
+  
+}
+
+div img {
+    display: inherit;
+    height: 300px;
+    width: 90%;
+    object-fit: contain;
+    object-position: center;
+    margin:5%
+}
+
+#tasaus {
+    align-content: stretch;
+    align-content: space-evenly;
+    text-align: justify;
+    padding-top: 1em; 
+    padding-left: 1em;    
+}
+input{
+    padding: 0.3em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    border: 1px solid var(--gray-background-color);
+    width: 13.5em;
+}
+
+th,td {
+    padding-left: .3em;
+//    border: 1px solid var(--gray-background-color);
+    border-spacing: 30px;
+    width: 11em;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+<div id="container">
+    <ul>
+        <li><a href="index.html"> Noppa</a></li>
+        <li><a href="vinksvinks.html"> Golf</a></li>
+        <li><a href="vinksvinks.html"> Camino Frances</a></li>
+        <li><a href="vinksvinks.html"> Git</a></li>
+    </ul>
+        <div id="otsikko";>
+            <h1>Tauno Jokinen</h1>
+            <h2>elämäntapainsinööri</h2>
+        </div>
+        <hr>
+        <div id = "tasaus">
+                <h2>git init </h2>
+                <p>The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a 
+                Git repository or initialize a new, empty repository. Most other Git commands are not available outside of an initialized 
+                repository, so this is usually the first command you'll run in a new project
+
+                Executing git init creates a .git subdirectory in the current working directory, which contains all of the necessary 
+                Git metadata for the new repository. This metadata includes subdirectories for objects, refs, and template files. 
+                A HEAD file is also created which points to the currently checked out commit.</p>
+        </div>
+        <div id = "tasaus">
+            <h2>git remote add origin https://github.com/taunojokinen/WebViikk01.git</h2>
+                <p>To add a new remote, use the git remote add command on the terminal, in the directory your repository is stored at.
+                The git remote add command takes two arguments:
+                 A unique remote name, for example, “my_awesome_new_remote_repo”
+                A remote URL, which you can find on the Source sub-tab of your Git repo</p>
+        </div>
+        <div id = "tasaus">
+            <h2>git add .</h2>
+            <p>When working in Git, or other version control systems, the concept of "saving" is a more nuanced process than saving 
+            in a word processor or other traditional file editing applications. The traditional software expression of "saving" 
+            is synonymous with the Git term "committing". A commit is the Git equivalent of a "save". Traditional saving should 
+            be thought of as a file system operation that is used to overwrite an existing file or write a new file. Alternatively,
+            Git committing is an operation that acts upon a collection of files and directories.</p>
+        </div>
+        <div id = "tasaus">
+            <h2>git commit - m "message" .</h2>
+            A shortcut command that immediately creates a commit with a passed commit message. By default, git commit will open up 
+            the locally configured text editor, and prompt for a commit message to be entered. Passing the -m option will forgo the 
+            text editor prompt in-favor of an inline message.
+            <p></p>
+        </div>
+        <div id = "tasaus">
+            <h2>git status</h2>
+            <p>The git status command displays the state of the working directory and the staging area. It lets you see which changes 
+            have been staged, which haven't, and which files aren't being tracked by Git. Status output does not show you any 
+            information regarding the committed project history.</p>
+        </div>
+        <div id = "tasaus">
+            <h2>git push -u origin main</h2>
+            <p>git push origin is a git command that pushes a local branch(es) to a remote repository (origin). origin is the 
+            conventional shorthand name of the url for the remote repository (usually in GitHub or another cloud git repository provider) 
+            for your project.
+        <BR>
+        -u, or --set-upstream:
+        This creates a remote branch and sets it upstream of the current branch you are pushing. The relationship between the current 
+        branch and upstream branch is remembered, such that you will not have to continually connect the remote and local branches 
+        when pushing commits.</p>
+        </div>
+    </div>
+    
+</body>
+</html>
